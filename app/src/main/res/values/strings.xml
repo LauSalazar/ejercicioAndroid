@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">vistaEjemplo</string>
+    <string name="hello_world">Hello world</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="into">Entrar</string>
+    <string name="tituloForm">Formulario</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="celular">Celular</string>
+    <string name="sodaAdd">Desea agregar soda?</string>
+    <string name="acompaAdd">Desea un acompañante?</string>
+
+    <string-array name="food_list">
+        <item>Pizza</item>
+        <item>Pollo</item>
+        <item>Hamburguesa</item>
+        <item>Lasagna</item>
+        <item>Ajiaco</item>
+        <item>Ensalada de frutas</item>
+    </string-array>
+</resources>
