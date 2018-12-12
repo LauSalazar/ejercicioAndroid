@@ -29,6 +29,14 @@ public class OrderActivity extends AppCompatActivity {
         intent.putExtra(Constantes.CONFIRMACION,true);
         setResult(Constantes.RESULT_OK);
         finish();
+    }
 
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent();
+        intent.putExtra(Constantes.CONFIRMACION,true);
+        setResult(Constantes.RESULT_OK);
+        finish();
+        super.onBackPressed();
     }
 }
